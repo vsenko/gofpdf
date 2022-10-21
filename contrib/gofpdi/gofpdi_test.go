@@ -2,11 +2,12 @@ package gofpdi
 
 import (
 	"bytes"
-	"github.com/phpdave11/gofpdf"
-	"github.com/phpdave11/gofpdf/internal/example"
 	"io"
 	"sync"
 	"testing"
+
+	"github.com/vsenko/gofpdf"
+	"github.com/vsenko/gofpdf/internal/example"
 )
 
 func ExampleNewImporter() {

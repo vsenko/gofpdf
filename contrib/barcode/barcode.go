@@ -34,8 +34,8 @@ import (
 	"github.com/boombuler/barcode/ean"
 	"github.com/boombuler/barcode/qr"
 	"github.com/boombuler/barcode/twooffive"
-	"github.com/phpdave11/gofpdf"
-	"github.com/ruudk/golang-pdf417"
+	pdf417 "github.com/ruudk/golang-pdf417"
+	"github.com/vsenko/gofpdf"
 )
 
 // barcodes represents the barcodes that have been registered through this
